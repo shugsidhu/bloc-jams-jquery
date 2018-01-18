@@ -16,10 +16,9 @@
 
     song.element.on('click', event => {
       player.playPause(song);
-<<<<<<< HEAD
-=======
+
       $('button#play-pause').attr('playState', player.playState);
->>>>>>> assignment-16
+
     });
 
     $('#song-list').append(song.element);

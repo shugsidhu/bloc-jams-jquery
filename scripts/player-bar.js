@@ -27,3 +27,4 @@
       player.playPause(previousSong);
     });
 }
+}
